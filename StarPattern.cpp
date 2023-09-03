@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int n, i = 1;
-    cout << "Enter the number for pattern : ";
+    cout << "Enter the number for pattern: ";
     cin >> n;
     while (i <= n)
     {
@@ -17,6 +17,6 @@ int main()
         cout << " " << endl;
         i++;
     }
+
     return 0;
 }
- 
