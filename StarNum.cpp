@@ -3,6 +3,20 @@ using namespace std;
 
 int main()
 {
+    // int n, i = 1;
+    // cout << "Enter num : ";
+    // cin >> n;
+    // while (i <= n)
+    // {
+    //     int j = 1;
+    //     while (j <= n)
+    //     {
+    //         cout << i << " ";
+    //         j++;
+    //     }
+    //     cout << " " << endl;
+    //     i++;
+    // }
     int n, i = 1;
     cout << "Enter num : ";
     cin >> n;
@@ -11,7 +25,7 @@ int main()
         int j = 1;
         while (j <= n)
         {
-            cout << i << " ";
+            cout << n - j + 1 << " ";
             j++;
         }
         cout << " " << endl;
